@@ -1,6 +1,6 @@
 # DSTAGNN
 
-DSTAGNN: Dynamic Spatial-Temporal Aware Graph Neural Network for Traffic Flow Forecasting (DSTAGNN)
+DSTAGNN: Dynamic Spatial-Temporal Aware Graph Neural Network for Traffic Flow Forecasting
 
 ![model architecture](fig/DSTAGNN.png)
 
