@@ -4,4 +4,4 @@ DSTAGNN: Dynamic Spatial-Temporal Aware Graph Neural Network for Traffic Flow Fo
 This paper can be download form https://proceedings.mlr.press/v162/lan22a.html
 
 
-The code has been available.
+The code will be available soon.
