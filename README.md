@@ -2,6 +2,10 @@
 
 DSTAGNN: Dynamic Spatial-Temporal Aware Graph Neural Network for Traffic Flow Forecasting
 
+DSTAGNN: Dynamic Spatial-Temporal Aware Graph Neural Network for Traffic Flow Forecasting, Proceedings of the 39th International Conference on Machine Learning, PMLR 162:11906-11917. (ICML 2022)
+
+Paper is availabe at 
+
 ![model architecture](fig/DSTAGNN.png)
 
 # References
