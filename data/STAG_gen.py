@@ -8,8 +8,8 @@ import torch
 import time
 import argparse
 from scipy.optimize import linprog
-#
-# np.seterr(divide='ignore', invalid='ignore')
+
+np.seterr(divide='ignore', invalid='ignore')
 
 def wasserstein_distance(p, q, D):
     A_eq = []
