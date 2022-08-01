@@ -238,7 +238,7 @@ def read_and_generate_dataset(graph_signal_matrix_filename,
     if save:
         file = os.path.basename(graph_signal_matrix_filename).split('.')[0]
         dirpath = os.path.dirname(graph_signal_matrix_filename)
-        filename = os.path.join(dirpath, file +  '_r' + str(num_of_hours) + '_d' + str(num_of_days) + '_w' + str(num_of_weeks)) + '_mhastigcn'
+        filename = os.path.join(dirpath, file +  '_r' + str(num_of_hours) + '_d' + str(num_of_days) + '_w' + str(num_of_weeks)) + '_dstagnn'
         print('save file:', filename)
         np.savez_compressed(filename,
                             train_x=all_data['train']['x'], train_target=all_data['train']['target'],
@@ -282,7 +282,7 @@ def normalization(train, val, test):
 
 # prepare dataset
 parser = argparse.ArgumentParser()
-parser.add_argument("--config", default='configurations/PEMS08_astgcn.conf', type=str,
+parser.add_argument("--config", default='configurations/PEMS04_dstagnn.conf', type=str,
                     help="configuration file path")
 args = parser.parse_args()
 config = configparser.ConfigParser()
