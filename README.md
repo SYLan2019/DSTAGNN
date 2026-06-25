@@ -122,3 +122,17 @@ The configuration file config.conf contains two parts: Data, Training:
 + d_k: int, the dimensions of the Q, K, and V vectors will be used
 + d_model: int, d_E
 + K: int, K-order chebyshev polynomials (number of spatial att heads) will be used
+
+## Citing DSTAGNN
+If you use this repository or would like to refer the paper, please use the following BibTeX.
+
+```
+@inproceedings{DSTAGNN,
+  title={{DSTAGNN}: Dynamic spatial-temporal aware graph neural network for traffic flow forecasting},
+  author={Lan, Shiyong and Ma, Yitong and Huang, Weikang and Wang, Wenwu and Yang, Hongyu and Li, Pyang},
+  booktitle={International Conference on Machine Learning},
+  pages={11906--11917},
+  year={2022},
+  organization={PMLR}
+}
+```
